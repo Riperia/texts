@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcamper=self.webpackChunkcamper||[]).push([[706],{4706:(a,e,c)=>{c.r(e),c.d(e,{default:()=>p});var s=c(3216),t=c(579);const p=()=>(0,t.jsx)(s.C5,{to:"/catalog"})}}]);
+//# sourceMappingURL=706.65992734.chunk.js.map
