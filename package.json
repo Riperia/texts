@@ -1,7 +1,6 @@
 {
   "name": "camper",
   "version": "0.1.0",
-  "homepage": "https://jure-s.github.io/Test-task-campers/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.4",
