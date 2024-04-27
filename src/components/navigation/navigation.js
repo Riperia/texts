@@ -31,7 +31,7 @@ const Navigation = () => {
         </li>
         <li>
           <Link
-            className={isActiveLink("#/catalog") ? styles.active_link : null}
+            className={isActiveLink("/catalog") ? styles.active_link : null}
             to="/catalog"
           >
             Catalog
