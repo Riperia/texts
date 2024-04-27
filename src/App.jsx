@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 
 import Navigation from "./components/navigation/navigation";
 import { lazy, Suspense } from "react";
@@ -12,7 +12,7 @@ const Catalog = lazy(() => import("./pages/catalog/catalog"));
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <Navigation />
         <main>
           <Suspense fallback={<LoadingIndicator />}>
@@ -24,7 +24,7 @@ function App() {
             </Routes>
           </Suspense>
         </main>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
